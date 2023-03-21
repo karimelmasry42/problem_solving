@@ -30,6 +30,6 @@ int main() {
     total_payroll += payroll;
     fscanf(in, "%d %f %f", &id, &hourly_rate, &hours);
   }
-  fprintf(out, "Average payroll: %.2f", total_payroll / count);
+  printf(out, "Average payroll: %.2f", total_payroll / count);
   return 0;
 }
