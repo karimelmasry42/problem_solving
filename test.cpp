@@ -1,18 +1,14 @@
 #include <stdio.h>
+void read(int a, int *b) { scanf("%d %d", a, *b); }
 int main(void) {
-  int x, i, j;
-  // prompt user for input 6
-
-  printf("%s", "Enter an integer in the range 1-20:");
-  scanf("%d", &x);           // read values for x
-  for (i = 1; i <= x; i++) { // count from 1 to x for (j = 1; j <= x; j++) { //
-    for (j = 1; j <= x; j++) { // count from 1 to x
-      if (j == i)
-        printf("%c", '@'); // output @
-      else
-        printf(" ");
-    } // end inner for
-    printf("\n");
-  } // end outer for
-} // end outer for 17
-  // end of main
+  // int m, x, y;
+  int a, *b;
+  scanf("%d %d", a, &b);
+  // if (x > y) {
+  //   m = x;
+  //   x = y;
+  //   y = m;
+  // } else
+  //   m = x % y;
+  // printf("m=%d", m);
+}
