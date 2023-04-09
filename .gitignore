@@ -1,3 +1,4 @@
-*.dSYM
-*.app
-*.vscode
+**/output/
+**/*.dSYM
+**/*.app
+**/*.vscode
