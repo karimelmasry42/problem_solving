@@ -4,6 +4,7 @@ Karim Elmasry
 
 Scan into array
 Linear search
+Bubble sort
 Binary search
 */
 #include <stdio.h>
@@ -47,6 +48,7 @@ int main() {
 }
 
 void scan_int_array(int size, int array[size]) {
+  // scans integers into an array
   for (int i = 0; i < size; i++) {
     int status = scanf("%d", &array[i]);
     while (status < 1) {
@@ -56,12 +58,15 @@ void scan_int_array(int size, int array[size]) {
   }
 }
 int linear_get_index(int size, int array[size], int key) {
+  // linearly iterates over an int array to get the index of key. Returns -1 if
+  // not found
   for (int i = 0; i < size; i++)
     if (array[i] == key)
       return i;
   return -1;
 }
 int swap(int *a, int *b) {
+  // swaps two variables by reference. Always returns 1
   *b ^= *a;
   *a ^= *b;
   *b ^= *a;
@@ -79,6 +84,8 @@ void bubble_sort(int size, int array[size]) {
   }
 }
 int binary_search(int size, int array[size], int key) {
+  // Binary search. All variables, loop step and conditions are automatic local
+  // in for loop
   for (int start = 0, end = size - 1, index = size / 2; start <= end;
        index = (start + end) / 2)
     if (array[index] == key)
