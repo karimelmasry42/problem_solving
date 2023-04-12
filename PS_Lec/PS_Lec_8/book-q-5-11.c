@@ -1,3 +1,11 @@
+/*
+11 Apr 2023
+Karim Ossama Elmasry
+Dr. Emad Elsamahy
+Problem Solving
+Book: C How to Program, Global Edition, 8th Edition
+Page 237, question 5-11
+*/
 #include <math.h>
 #include <stdio.h>
 double roundToInteger(double number);
@@ -7,10 +15,11 @@ double roundToThousandths(double number);
 
 int main() {
   double number = 42.42424242;
-  printf("%lf\n", roundToInteger(number));
-  printf("%lf\n", roundToTenths(number));
-  printf("%lf\n", roundToHundredths(number));
-  printf("%lf\n", roundToThousandths(number));
+  printf("original number =         %lf\n", number);
+  printf("rounded to integer =      %lf\n", roundToInteger(number));
+  printf("rounded to tenths =       %lf\n", roundToTenths(number));
+  printf("rounded to hundredths =   %lf\n", roundToHundredths(number));
+  printf("rounded to thousandths =  %lf\n", roundToThousandths(number));
   return 0;
 }
 
