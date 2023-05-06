@@ -1,3 +1,8 @@
+/**
+ * Karim Elmasry 2023-05-06
+ * Lab 10 Question 1
+ * I used structs instead of parallel arrays
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

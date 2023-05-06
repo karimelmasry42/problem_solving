@@ -1,3 +1,7 @@
+/**
+ * Karim Elmasry 2023-05-06
+ * Counting digits, letters, and words in a string
+ */
 #include <ctype.h>
 #include <stdio.h>
 #include <string.h>

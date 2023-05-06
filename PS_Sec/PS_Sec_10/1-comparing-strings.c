@@ -1,3 +1,7 @@
+/**
+ * Karim Elmasry 2023-05-06
+ * Comparing strings
+ */
 #include <stdio.h>
 #include <string.h>
 int main() {

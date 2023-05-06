@@ -1,4 +1,5 @@
 /**
+ * Karim Elmasry 2023-05-06
  * read 5 student names and grades
  * store them in file
  * print name of student with highest score
