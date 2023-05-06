@@ -1,0 +1,5 @@
+20001	Ahmed Mohamed	90	85	87
+20005	Yasser Maged	97	98	99
+20003	Emad Mohsen	75	88	91
+20002	Mohamed Hassan	95	92	90
+20004	Ali Nassar	80	79	83
