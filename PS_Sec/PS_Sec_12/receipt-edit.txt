@@ -1,0 +1,3 @@
+avocado 3 20.5
+chicken 2 120
+muesli 2 60
